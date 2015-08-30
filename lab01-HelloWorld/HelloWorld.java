@@ -20,7 +20,7 @@ public class HelloWorld{
    System.out.println("########################");
    System.out.println("#                      #");
    System.out.println("#  Hello World 2015 !! #");
-   System.out.println("#                      #");ss
+   System.out.println("#                      #");
    System.out.println("########################");
    System.out.println("########################");
    System.out.println("test");
