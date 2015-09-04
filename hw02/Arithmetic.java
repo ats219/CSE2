@@ -2,7 +2,7 @@
 // Athicha Srivirote
 // ats219
 // 09/04/15
-// Program : to calculate the costs of items including PA sales tax
+// Program : to calculate the cost of items including PA sales tax
 
 // create Arithmatic class
 
