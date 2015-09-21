@@ -13,7 +13,8 @@
              // Use Math.random method to generate number 1-52 inclusively
              int cardNum = (int)(Math.random()*52) + 1;
              
-             // Categorize suit of the card by 1-13 represents the diamons
+             // Categorize suit of the card by 1-13 represents the diamons, 14-26 as clubs, 27-39 as hearts, and 40-52 as spades
+             
              
              String cardSuit =" ";
              if (cardNum <= 13)
@@ -37,7 +38,7 @@
                     cardSuit = "Spades";
                  }
              
-            
+              // Use switch to categorize the number of the card which also has a special character as Jack, Queen, and King
               String cardID =" ";
               switch ( cardNum ) {
                   
@@ -93,7 +94,7 @@
                          cardID = "King";
                         break;
               }
-               
+               // Print out the selected card
                System.out.println("You pick the "+cardID+" of "+cardSuit);
               
               
