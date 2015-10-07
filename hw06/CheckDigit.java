@@ -36,7 +36,7 @@ import java.util.Scanner;
            if ( inputLength == 10)
         {
             
-             System.out.print("yay");
+             
              int count = 0;
              while (count == 0)
             {
@@ -249,8 +249,7 @@ import java.util.Scanner;
                   (digit_7*4) + (digit_8*3) + (digit_9*2);
                 // Find the remainder of the sum devided by 11      
                  int check = sum % 11;
-                 System.out.println(sum);
-                 System.out.println(check);
+                 
                      if ( check == digit_10)
                      {
                          System.out.println("This is a valid ISBN.");
@@ -266,7 +265,7 @@ import java.util.Scanner;
                              System.out.println("This is NOT a valid ISBN. Check digit should be "+check);
                             }
                      } 
-                     System.out.println("x: "+x);
+                     
                      x++;
                      break;
              
