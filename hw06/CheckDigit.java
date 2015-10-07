@@ -36,7 +36,7 @@ import java.util.Scanner;
            if ( inputLength == 10)
         {
             
-             
+             // Use count to make the loop stop when count is not equal 1 
              int count = 0;
              while (count == 0)
             {
@@ -56,6 +56,7 @@ import java.util.Scanner;
                 {
                      System.out.println("This is a valid NOT a valid ISBN. Please enter 10 digits: ");
                      input = myScanner.nextLine(); 
+                     // After perform the above statement count++ and make this quit the loop go back to the while loop outside
                      count++;
                 }
                 
@@ -267,6 +268,7 @@ import java.util.Scanner;
                      } 
                      
                      x++;
+                     // Break out the infinite while loop
                      break;
              
                        
