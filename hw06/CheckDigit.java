@@ -25,7 +25,7 @@ import java.util.Scanner;
              String input = myScanner.nextLine();
              
              
-     
+    // Use x to make the loop continue when the user input inappropriate data 
     int x = 0;
     while ( x == 0)
    {
