@@ -306,6 +306,8 @@ import java.util.Scanner;
             int range = 0; // range of the fluctuated percent between -20<= range <= 20
             double percent = 0; 
             double sum = 0;
+            
+            //Since one year has 52*7 = 364 days, so that 4 years have 364*4 = 1456 days
             for ( int x = 0; x < 1456; x++)
             {
                range = (int) (Math.random()*41)-20;
