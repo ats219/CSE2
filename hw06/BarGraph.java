@@ -43,7 +43,7 @@ import java.util.Scanner;
                     {
                      System.out.print("Please only enter positive numbers. Try again: $");
                      monInput = myScanner.nextDouble();
-                     //System.out.println(monInput);
+                 
                     }
                    
                     //Store the input in digit and also use Math.round() to format the input into 2 decimal points 
