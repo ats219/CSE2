@@ -62,99 +62,247 @@ public class Test{
                    }while( x < 10 ); */
                    
                    
-             int number = 10;
-             int factor = 2; 
-             boolean prime = true; // boolean variable to determine whether the number is prime or not
-             /* while ( number <= 100)
-             {
-                 
-                 while( factor < number )
-                 
+                   
+                  /* System.out.println("#");
+                   System.out.println("/");
+                   System.out.println("\\"); */
+                   
+              /* for ( int row = 1; row < 5; row++ )
+              {
+                  for( int col = 1; col < 5; col++ )
+                  {
+                    for( int a = 1; a < 5; a++)
                     {
-                        if( number % factor == 0)
+                     System.out.print("#");
+                    }
+                    
+                    for(int b = 1; b < 5; b++)
+                    {
+                        System.out.print("o");
+                    }
+                    
+                     
+                  }
+                  
+                  System.out.println();
+              } */
+              
+              
+              
+              
+              
+            /*    for ( int row = 1; row < 5; row++ )
+              {
+                  for( int col = 1; col <= row - 1  ; col++ )
+                  {
+                     
+                         System.out.print("#");
+                    
+                  }
+                  
+                  for( int x = 1; x <= 5 - row ; x++ )
+                  {
+                      System.out.print("o");
+                  }
+                  
+                  System.out.println();
+                  
+              } */
+              
+              
+              
+              
+              
+              
+              
+              
+            /*  int size = 5;
+              for ( int row = 1; row < size; row++ )
+              {
+                  for( int col = 1; col <= size  ; col++ )
+                  {
+                         if( row == col )
                          {
-                           prime = false;
-                           break; // break out of the loop because this is not prime number
+                            System.out.print("#");  
                          }
-                         else 
+                         else
                          {
-                           prime = true;
+                             System.out.print(" ");
                          }
-                        factor++;
+                        
+                         if( size == row + col )
+                         {
+                            System.out.print("o");
+                         }
+                         else
+                         {
+                             System.out.print(" ");
+                         }
+                        
+                  }
+                  
+                  
+                  
                  
-                    }
-                    
-                    
-                    if( prime )
-                    {
-                        System.out.print(number+" ");
-                    }
-                    
-                factor = 2; //set a factor value back to 2, starting at the beginning   
-                number++;
-                    
-             } */
-             
-            System.out.println(); 
-            System.out.print("DO WHILE LOOP: "); 
-             
-             do 
-             {
-                   //System.out.println("Looktan is cute");
-                   do
-                    {
-                        if( number % factor == 0)
+                  
+                  
+                  System.out.println();
+                  
+              } */
+              
+              
+             /* int size = 5;
+              for ( int row = 1; row < size; row++ )
+              {
+                  for( int col = 1; col <= size; col++ )
+                  {
+                         for( int x = 1; x < size; x++ )
+                        {
+                         if( row == col )
                          {
-                           prime = false;
-                           break; // break out of the loop because this is not prime number
+                            System.out.print("#");  
                          }
-                         else 
+                         else
                          {
-                           prime = true;
+                             System.out.print(" ");
                          }
-                        factor++;
-                        //System.out.print("Looktan is cute");
+                        
+                         if( size == row + col )
+                         {
+                            System.out.print("o");
+                         }
+                         else
+                         {
+                             System.out.print(" ");
+                         }
+                        }
+                  }
+                  
+                  
+                  
                  
-                    }while( factor < number );
-                    
-                    
-                    if( prime )
-                    {
-                        System.out.print(number+" ");
-                        //System.out.print("Looktan is cute");
-                    }
-                    
-                factor = 2; //set a factor value back to 2, starting at the beginning   
-                number++;
-                    
-             }while ( number <= 100);
-             
-             
-             
-             
-             System.out.println();
-             System.out.print("FOR LOOP: ");
-             for( number = 10; number < 100; number++ )
-             {
-                 for( factor = 2; factor < number; factor++ )
-                 {
-                    if ( number % factor == 0)
-                    {
-                        prime = false;
-                        break;
-                    }
-                    else
-                    {
-                        prime = true;
-                    }
-                    
-                 }
-                 if( prime )
-                 {
-                     System.out.print(number+" ");
-                 }
-             }
-             
+                  
+                  
+                  System.out.println();
+                  
+              } */
+           
+              
+            /*  int w = 5;
+              int l = 45;
+              int z = (l/(2*w)) + 2;
+
+
+              for ( int i = 1; i < w; i++ )
+              {
+               
+               for( int s = 1; s < z ; s++)
+              { 
+               for( int c = 1 + (2*w)*(s-1) ; c < 2*w + (2*w)*(s-1) && c < l + 1; c++ )
+               {
+                
+                if ( c ==  (w + i) + (2 * w)*(s - 1)  )
+                {
+                 System.out.print("\\");
+                }
+                else if ( c == (i + (2 * w ) * (s - 1) ) || c == ( (2*w - i + 1) + (2 * w ) * (s - 1) ) )
+                {
+                 System.out.print("#");
+                }
+                else if( c == ((w - i + 1) + (2 * w ) * (s - 1) ))
+                {
+                 System.out.print("/");
+                }
+                else
+                {
+                 System.out.print(" ");
+                }
+                
+               } 
+              }
+               System.out.println();
+              } */
+              
+              
+              
+              /* int w = 7;
+              int l = 39;
+              int z = (l/(2*w)) + 2;
+
+
+              for ( int i = 0; i < w; i++ )
+              {
+               for( int s = 1; s < z ; s++)
+              {
+               for( int c = 0; c < l ; c++ )
+               {
+                
+                if ( c ==  ((w + i)%(2*w))  )
+                {
+                 System.out.print("\\");
+                }
+                else if ( c == (i%(2*w)) || c == ( (2*w - i - 1)%(2*w)  ) )
+                {
+                 System.out.print("#");
+                }
+                else if( c == ((w - i - 1) ))
+                {
+                 System.out.print("/");
+                }
+                else
+                {
+                 System.out.print("_");
+                }
+               } 
+              }
+               System.out.println();
+              } */
+              
+              
+              
+              int w = 7;
+              int l = 39;
+
+
+              for ( int i = 0; i < w; i++ )
+              {
+               
+
+               for( int c = 0; c < l ; c++ )
+               {
+                
+                if ( c % (2 * w) == (w + i)  )
+                {
+                 
+                 System.out.print("\\");
+                 
+                }
+                
+                else if ( c % (2 * w) == i || c % (2 * w) == (2 * w - i - 1)  )
+                {
+                 
+                 System.out.print("#");
+                 
+                }
+                
+                else if( c % (2 * w) == (w - i - 1) )
+                {
+                 
+                 System.out.print("/");
+                 
+                }
+                
+                else
+                {
+                 
+                 System.out.print(" ");
+                 
+                }
+                
+              }
+               System.out.println();
+              }
+               
            
 
   }
