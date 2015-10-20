@@ -301,7 +301,7 @@ import java.util.Scanner;
             System.out.println("Your average daily expenses are: $" +avgRound );
             
             //Declare varaibles for calculation of 4 years
-            double next = 0; // next is the amount of money you would specd in the next week based on the prediction
+            double next = 0; // next is the amount of money you would spend in the next week based on the prediction
             double fourYears = 0; // the estimation of 4 years expenditure
             int range = 0; // range of the fluctuated percent between -20<= range <= 20
             double percent = 0; 
