@@ -1,8 +1,11 @@
+import java.util.Scanner;
 public class Test{
 
 // add main method
 
   public static void main(String[] args) {
+   
+   Scanner myScanner = new Scanner( System.in );
    
    /*// Math.round() how to convert double into 2 decimal points 
             double a = 56.78676;
@@ -260,7 +263,7 @@ public class Test{
               
               
               
-              int w = 7;
+              /*int w = 7;
               int l = 39;
 
 
@@ -301,9 +304,70 @@ public class Test{
                 
               }
                System.out.println();
-              }
-               
+              } */
+             
+            /*System.out.print("Enter integer: ");
+            int input1 = myScanner.nextInt();
+            System.out.print("Enter an int greater than "+input1+": ");
+            int input2 = myScanner.nextInt();
+            boolean acceptable = false;
+            
+            while( !acceptable )
+            {
+             if( input2 > input1)
+             {
+              acceptable = true;
+             }
+             else
+             {
+              System.out.println("Sorry,you entered "+input2+" <= "+input1);
+              System.out.print("Enter an int greater than "+input1+": ");
+              input2 = myScanner.nextInt();
+              
+             }
+             
+             int sum = sum( input1, input2 );
+              System.out.print(sum);
+            } */
+            
+           /* while (true)
+           { 
+            do{
+             System.out.print("Enter an int: ");
+             int input = myScanner.nextInt();
+             if( input <= 0 )
+             {
+              return;
+             }
+             else
+             {
+              System.out.println("good job");
+             }
+            }while(true);
+            
+           } */
            
-
+           
+          /* for( int x = 0; x < 10; x++, System.out.println("so mean"), System.out.println("bad"))
+  {
+   
+  } */
+  
+           while( true )
+           {
+            System.out.println(2);
+           }
+           
+           
   }
+           /*public static int sum( int input1, int input2 )
+           {
+              int sum = 0;
+              while( input1 <= input2)
+              {
+               sum = input1 + sum;
+               input1++;
+              }
+              return sum;
+           } */
 }
