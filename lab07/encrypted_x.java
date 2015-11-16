@@ -16,29 +16,68 @@ import java.util.Scanner;
            //Create an instance for Scanner  
            Scanner myScanner = new Scanner( System.in );
            int input = 0;
-           boolean goodInput = false; 
+           boolean acceptable1 = false; 
+           
            //Ask the user to input the size of the square
-           System.out.println("Input size of the square between 0-100: ");
+           System.out.print("Input size of the square between 0-100: ");
            
            //Use while loop to check if the input is appropriate
-               while (!gooInput)
+            
+               while ( !acceptable1 )
               {
-                   if( input.hasNextInt() )
+                   if( myScanner.hasNextInt() )
                    {
-                       input 
+                       input = myScanner.nextInt();
+                       acceptable1 = true;
                    }
-              }
+                   else
+                   {
+                       System.out.println("   Error: This is not an interger");
+                       System.out.print("Please input an integer between 0-100: ");
+                       myScanner.next();
+                       
+                   }
+              }    
+                   
+               boolean acceptable2 = false;
+               
+                   while( !acceptable2 )
+                  { 
+                    if( 0 <= input && input <= 100 )
+                   {
+                       acceptable2 = true;
+                   }
+                   else
+                   {
+                       System.out.println("   Error: This is out of range");
+                       System.out.print("Please input an integer between 0-100: ");
+                       input = myScanner.nextInt();
+                   }
+              
+                  }
            
            
+           for( int i = 0; i < input+1; i++ )
+           {
+               for( int j = 0; j < input+1; j++ )
+               {
+                   if( i == j || i+j == input)
+                   {
+                       System.out.print(" ");
+                   }
+                   else
+                   {
+                       System.out.print("*");
+                   }
+              
+               }
+           
+              System.out.println();
+           }
            
            
-           
-           
-           
-           
-           
-         }     
+        }     
              
              
-         } 
+} 
          

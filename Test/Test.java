@@ -370,4 +370,40 @@ public class Test{
               }
               return sum;
            } */
+           
+           // Why I cannot use this kind of loop to fill out the increasing random number in array
+           int array2 [] = new int[10];
+            //System.out.println("WHY**");
+            int number = 0;
+            for( int i = 0; i < array2.length; i++ )
+            {   
+                boolean acceptable = false;
+                array2[i] = (int) (Math.random()*1000);
+                while( !acceptable )
+                {
+                    if( array2[i] > number)
+                    {
+                        //System.out.println("WHY***");
+            
+                        number = array2[i];
+                        acceptable = true;
+                        
+                    }
+                    else
+                    {
+                        
+                        array2[i] = (int) (Math.random()*100001);
+                        
+                    }
+                }
+                
+                
+            }
+            System.out.println("The maximum value in array2 is: "+array2[4]);
+            System.out.println("The minimum value in array2 is: "+array2[0]);
+            
+            
+         }
 }
+
+
